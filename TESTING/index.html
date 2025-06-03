@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thư Viện Ảnh Tương Tác</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="image">
+    Di chuột qua một hình ảnh bên dưới để hiển thị tại đây.
+  </div>
+
+  <div class="gallery">
+    <img src="img/anh1.jpg" alt="Hình ảnh 1" id="img1" onmouseover="upDate(this);" onmouseout="undo();">
+    <img src="img/anh2.jpg" alt="Hình ảnh 2" id="img2" onmouseover="upDate(this);" onmouseout="undo();">
+    <img src="img/anh3.jpg" alt="Hình ảnh 3" id="img3" onmouseover="upDate(this);" onmouseout="undo();">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
